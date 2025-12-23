@@ -248,5 +248,7 @@ public class TC04_BookTicketTest extends BaseTest {
         LOG.info("VP17: Check booking successful message display");
         String actualBookingMessage = bookTicketPage.getBookingMessage();
         Assert.assertEquals(actualBookingMessage, expectedBookingMessage, "Booking message not correct");
+
+        ExtentReportManager.pass("PASSED");
     }
 }

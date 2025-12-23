@@ -197,5 +197,7 @@ public class TC05_CheckTicketTest extends BaseTest {
         LOG.info("VP10: Check seat No.");
         String actualSeatNo = accountPage.getSeatNoValue();
         Assert.assertEquals(actualSeatNo, firstSeatNo);
+
+        ExtentReportManager.pass("PASSED");
     }
 }

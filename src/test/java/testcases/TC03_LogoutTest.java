@@ -86,5 +86,7 @@ public class TC03_LogoutTest extends BaseTest {
         String registerLinkText = homePage.getTopBarNavigation().getRegisterText();
         Assert.assertEquals(registerLinkText, "Đăng Ký", "Register text fail");
 
+        ExtentReportManager.pass("PASSED");
+
     }
 }

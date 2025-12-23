@@ -29,6 +29,8 @@ public class TC06_PartnerPageTest extends BaseTest {
         homePage.navigatePartnerPage();
 
         // VP1: Check displaying partner page
+        ExtentReportManager.info("VP1: Check displaying partner page");
+        LOG.info("VP1: Check displaying partner page");
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
         wait.until(d -> d.getWindowHandles().size() > 1);
 
@@ -40,5 +42,7 @@ public class TC06_PartnerPageTest extends BaseTest {
         }
 
         Assert.assertTrue(Objects.requireNonNull(driver.getCurrentUrl()).contains("cgv.vn"), "URL is incorrect: " + driver.getCurrentUrl());
+
+        ExtentReportManager.pass("PASSED");
     }
 }

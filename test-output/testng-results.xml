@@ -2,54 +2,54 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-23T13:47:11 ICT" name="Gradle suite" finished-at="2025-12-23T13:47:19 ICT" duration-ms="8799">
+  <suite started-at="2025-12-23T15:01:28 ICT" name="Gradle suite" finished-at="2025-12-23T15:01:32 ICT" duration-ms="4337">
     <groups>
     </groups>
-    <test started-at="2025-12-23T13:47:11 ICT" name="Gradle test" finished-at="2025-12-23T13:47:19 ICT" duration-ms="8799">
-      <class name="testcases.TC01_RegisterTest">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.TC01_RegisterTest@1c55f277]" started-at="2025-12-23T13:47:10 ICT" name="beforeSuite" finished-at="2025-12-23T13:47:11 ICT" duration-ms="505" status="PASS">
+    <test started-at="2025-12-23T15:01:28 ICT" name="Gradle test" finished-at="2025-12-23T15:01:32 ICT" duration-ms="4337">
+      <class name="testcases.TC06_PartnerPageTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testcases.TC06_PartnerPageTest@58e6d4b8]" started-at="2025-12-23T15:01:27 ICT" name="beforeSuite" finished-at="2025-12-23T15:01:28 ICT" duration-ms="467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.TC01_RegisterTest@1c55f277]" started-at="2025-12-23T13:47:11 ICT" name="beforeClass" finished-at="2025-12-23T13:47:14 ICT" duration-ms="3442" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testcases.TC06_PartnerPageTest@58e6d4b8]" started-at="2025-12-23T15:01:28 ICT" name="beforeClass" finished-at="2025-12-23T15:01:29 ICT" duration-ms="1272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.TC01_RegisterTest@1c55f277]" started-at="2025-12-23T13:47:14 ICT" name="beforeMethod" finished-at="2025-12-23T13:47:14 ICT" duration-ms="33" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:testcases.TC06_PartnerPageTest@58e6d4b8]" started-at="2025-12-23T15:01:29 ICT" name="beforeMethod" finished-at="2025-12-23T15:01:29 ICT" duration-ms="22" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=TC01_RegisterTest.testRegister()[pri:0, instance:testcases.TC01_RegisterTest@1c55f277] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC06_PartnerPageTest.testPartnerPage()[pri:0, instance:testcases.TC06_PartnerPageTest@58e6d4b8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testRegister()[pri:0, instance:testcases.TC01_RegisterTest@1c55f277]" started-at="2025-12-23T13:47:14 ICT" name="testRegister" description="Register Test" finished-at="2025-12-23T13:47:19 ICT" duration-ms="5075" status="PASS">
+        <test-method signature="testPartnerPage()[pri:0, instance:testcases.TC06_PartnerPageTest@58e6d4b8]" started-at="2025-12-23T15:01:29 ICT" name="testPartnerPage" description="Partner Page Test" finished-at="2025-12-23T15:01:32 ICT" duration-ms="2657" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRegister -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TC01_RegisterTest@1c55f277]" started-at="2025-12-23T13:47:19 ICT" name="afterMethod" finished-at="2025-12-23T13:47:19 ICT" duration-ms="5" status="PASS">
+        </test-method> <!-- testPartnerPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testcases.TC06_PartnerPageTest@58e6d4b8]" started-at="2025-12-23T15:01:32 ICT" name="afterMethod" finished-at="2025-12-23T15:01:32 ICT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testRegister status=SUCCESS method=TC01_RegisterTest.testRegister()[pri:0, instance:testcases.TC01_RegisterTest@1c55f277] output={null}]]]>
+                <![CDATA[[TestResult name=testPartnerPage status=SUCCESS method=TC06_PartnerPageTest.testPartnerPage()[pri:0, instance:testcases.TC06_PartnerPageTest@58e6d4b8] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcases.TC01_RegisterTest@1c55f277]" started-at="2025-12-23T13:47:19 ICT" name="afterClass" finished-at="2025-12-23T13:47:19 ICT" duration-ms="149" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testcases.TC06_PartnerPageTest@58e6d4b8]" started-at="2025-12-23T15:01:32 ICT" name="afterClass" finished-at="2025-12-23T15:01:32 ICT" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.TC01_RegisterTest@1c55f277]" started-at="2025-12-23T13:47:20 ICT" name="afterSuite" finished-at="2025-12-23T13:47:20 ICT" duration-ms="717" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testcases.TC06_PartnerPageTest@58e6d4b8]" started-at="2025-12-23T15:01:32 ICT" name="afterSuite" finished-at="2025-12-23T15:01:33 ICT" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- testcases.TC01_RegisterTest -->
+      </class> <!-- testcases.TC06_PartnerPageTest -->
     </test> <!-- Gradle test -->
   </suite> <!-- Gradle suite -->
 </testng-results>
