@@ -13,7 +13,7 @@ import java.time.Duration;
 import java.util.Objects;
 
 @Listeners(TestListener.class)
-public class TC06_PartnerPage_Test extends BaseTest {
+public class TC06_PartnerPageTest extends BaseTest {
     @Test(description = "Partner Page Test")
     public void testPartnerPage() {
         HomePage homePage = new HomePage();

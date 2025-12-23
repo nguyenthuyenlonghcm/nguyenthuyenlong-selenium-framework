@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="All Test Suite" parallel="classes" thread-count="3">
+<suite name="All Test Suite" parallel="classes" thread-count="2">
     <listeners>
         <listener class-name="listeners.TestListener" />
     </listeners>
@@ -12,7 +12,7 @@
             <class name="testcases.TC03_LogoutTest" />
             <class name="testcases.TC04_BookTicketTest" />
             <class name="testcases.TC05_CheckTicketTest" />
-            <class name="testcases.TC06_PartnerPage_Test" />
+            <class name="testcases.TC06_PartnerPageTest" />
         </classes>
     </test>
 </suite>
