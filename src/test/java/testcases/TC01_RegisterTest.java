@@ -96,12 +96,12 @@ public class TC01_RegisterTest extends BaseTest {
         LOG.info("Click on Login link");
         homePage.getTopBarNavigation().navigateLoginPage();
 
-        //Enter account to login
+        //Enter account to log in
         ExtentReportManager.info("Enter account to login");
         LOG.info("Enter account to login");
         loginPage.enterAccount(username);
 
-        //Enter password to login
+        //Enter password to log in
         ExtentReportManager.info("Enter password to login");
         LOG.info("Enter password to login");
         loginPage.enterPassword(password);
