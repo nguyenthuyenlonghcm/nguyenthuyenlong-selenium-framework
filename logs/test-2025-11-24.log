@@ -1,0 +1,25 @@
+[2025-11-24 15:05:19] [INFO ] TestListener - onStart
+[2025-11-24 15:05:20] [INFO ] TestListener - onTestStart
+[2025-11-24 15:05:21] [INFO ] TC02_LoginTest - Step1: Click "Dang Nhap" link on the top right
+[2025-11-24 15:05:21] [INFO ] TopBarNavigation - navigateLoginPage
+[2025-11-24 15:05:21] [INFO ] TopBarNavigation - click: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10
+[2025-11-24 15:05:21] [INFO ] TopBarNavigation - waitForElementToBeClickable: By.xpath: //h3[text()='Đăng Nhập']/parent::a in 10
+[2025-11-24 15:05:21] [INFO ] TC02_LoginTest - Step2: Enter account to login
+[2025-11-24 15:05:21] [INFO ] LoginPage - enterAccount: 0ebc63ef-9826-4e1c-a52d-6a00ab74d118
+[2025-11-24 15:05:21] [INFO ] LoginPage - sendKeys: By.id: taiKhoan with 0ebc63ef-9826-4e1c-a52d-6a00ab74d118 in 10
+[2025-11-24 15:05:21] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: taiKhoan in 10
+[2025-11-24 15:05:21] [INFO ] TC02_LoginTest - Step3: Enter password to login
+[2025-11-24 15:05:21] [INFO ] LoginPage - enterPassword: 123456
+[2025-11-24 15:05:21] [INFO ] LoginPage - sendKeys: By.id: matKhau with 123456 in 10
+[2025-11-24 15:05:21] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: matKhau in 10
+[2025-11-24 15:05:21] [INFO ] TC02_LoginTest - Step4: Click login
+[2025-11-24 15:05:21] [INFO ] LoginPage - clickLoginButton
+[2025-11-24 15:05:21] [INFO ] LoginPage - click: By.xpath: //button[span[text()='Đăng nhập']] in 10
+[2025-11-24 15:05:21] [INFO ] LoginPage - waitForElementToBeClickable: By.xpath: //button[span[text()='Đăng nhập']] in 10
+[2025-11-24 15:05:21] [INFO ] TC02_LoginTest - VP1: Check "Đăng nhập thành công" message display
+[2025-11-24 15:05:21] [INFO ] LoginPage - getLoginMessage
+[2025-11-24 15:05:21] [INFO ] LoginPage - getText: By.id: swal2-title in 10
+[2025-11-24 15:05:21] [INFO ] LoginPage - waitForVisibilityOfElementLocated: By.id: swal2-title in 10
+[2025-11-24 15:05:21] [INFO ] TestListener - onTestFailure: testLogin - FAILED
+[2025-11-24 15:05:23] [INFO ] TestListener - Saved screenshot: F:\longdata\0_tai-nguyen-mua\01_Khoa_Automation_Test\Exercises\nguyenthuyenlong-selenium-framework\test-output\screenshots\testLogin_20251124_03_05_22.png
+[2025-11-24 15:05:23] [INFO ] TestListener - onFinish
